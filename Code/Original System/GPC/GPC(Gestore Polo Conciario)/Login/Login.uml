@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_xklQgB_-Edyi3tc0vUUiUQ" name="CicloVendite">
+  <packagedElement xmi:type="uml:Package" xmi:id="_La4VkB_-Edyi3tc0vUUiUQ" name="Login">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LovLYB_-Edyi3tc0vUUiUQ" name="Account" clientDependency="_MZnOsB_-Edyi3tc0vUUiUQ _MZ6JoR_-Edyi3tc0vUUiUQ">
+      <ownedAttribute xmi:id="_MWMHQB_-Edyi3tc0vUUiUQ" name="tipologia" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXYaER_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXYaEB_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MWVRMx_-Edyi3tc0vUUiUQ" name="username" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXhkAR_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXhkAB_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MWVRNB_-Edyi3tc0vUUiUQ" name="idAccount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVAR_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVAB_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MWVRNR_-Edyi3tc0vUUiUQ" name="password" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVAx_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVAh_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MWVRNh_-Edyi3tc0vUUiUQ" name="user" visibility="private" type="_MWVRNx_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVBR_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVBB_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_MWVROB_-Edyi3tc0vUUiUQ" name="setUser" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEiB_-Edyi3tc0vUUiUQ" name="user" type="_MWVRNx_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCMB_-Edyi3tc0vUUiUQ" name="getIdAccount" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEhR_-Edyi3tc0vUUiUQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCMh_-Edyi3tc0vUUiUQ" name="getPassword" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEgB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCNB_-Edyi3tc0vUUiUQ" name="getUser" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEgx_-Edyi3tc0vUUiUQ" type="_MWVRNx_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCNh_-Edyi3tc0vUUiUQ" name="setIdAccount" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEgR_-Edyi3tc0vUUiUQ" name="idAccount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCOB_-Edyi3tc0vUUiUQ" name="getTipologia" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEhB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWfCOh_-Edyi3tc0vUUiUQ" name="getUsername" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEhh_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MWx9IB_-Edyi3tc0vUUiUQ" name="setTipologia" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEiR_-Edyi3tc0vUUiUQ" name="tipologia" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MW7uIB_-Edyi3tc0vUUiUQ" name="setPassword" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEgh_-Edyi3tc0vUUiUQ" name="password" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MW7uIh_-Edyi3tc0vUUiUQ" name="setUsername" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_j9nEhx_-Edyi3tc0vUUiUQ" name="username" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MWVRNx_-Edyi3tc0vUUiUQ" name="Utente" clientDependency="_MbQNcB_-Edyi3tc0vUUiUQ">
+      <ownedAttribute xmi:id="_MagmkB_-Edyi3tc0vUUiUQ" name="idUtente" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Sgh_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9SgR_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MapwgB_-Edyi3tc0vUUiUQ" name="indirizzo" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9ShB_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9Sgx_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MapwgR_-Edyi3tc0vUUiUQ" name="telefono" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Shh_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9ShR_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Mapwgh_-Edyi3tc0vUUiUQ" name="nome" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9SiB_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9Shx_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Mapwgx_-Edyi3tc0vUUiUQ" name="cognome" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Sih_-Edyi3tc0vUUiUQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9SiR_-Edyi3tc0vUUiUQ"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_MapwhB_-Edyi3tc0vUUiUQ" name="getIndirizzo" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBQR_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Mapwhh_-Edyi3tc0vUUiUQ" name="setIndirizzo" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBQx_-Edyi3tc0vUUiUQ" name="indirizzo" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MazhgB_-Edyi3tc0vUUiUQ" name="getIdUtente" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBSB_-Edyi3tc0vUUiUQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Mazhgh_-Edyi3tc0vUUiUQ" name="getTelefono" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBQB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MazhhB_-Edyi3tc0vUUiUQ" name="getNome" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBQh_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Mazhhh_-Edyi3tc0vUUiUQ" name="setTelefono" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBRx_-Edyi3tc0vUUiUQ" name="telefono" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MazhiB_-Edyi3tc0vUUiUQ" name="setCognome" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBRR_-Edyi3tc0vUUiUQ" name="cognome" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Mazhih_-Edyi3tc0vUUiUQ" name="setNome" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBRh_-Edyi3tc0vUUiUQ" name="nome" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MazhjB_-Edyi3tc0vUUiUQ" name="getCognome" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBSR_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Mazhjh_-Edyi3tc0vUUiUQ" name="setIdUtente" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P6xBRB_-Edyi3tc0vUUiUQ" name="idUtente">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LovLYB_-Edyi3tc0vUUiUQ" name="Account" clientDependency="_MZnOsB_-Edyi3tc0vUUiUQ _MZ6JoR_-Edyi3tc0vUUiUQ">
+    <ownedAttribute xmi:id="_MWMHQB_-Edyi3tc0vUUiUQ" name="tipologia" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXYaER_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXYaEB_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MWVRMx_-Edyi3tc0vUUiUQ" name="username" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXhkAR_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXhkAB_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MWVRNB_-Edyi3tc0vUUiUQ" name="idAccount" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVAR_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVAB_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MWVRNR_-Edyi3tc0vUUiUQ" name="password" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVAx_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVAh_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MWVRNh_-Edyi3tc0vUUiUQ" name="user" visibility="private" type="_MWVRNx_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXrVBR_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXrVBB_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_MWVROB_-Edyi3tc0vUUiUQ" name="setUser" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEiB_-Edyi3tc0vUUiUQ" name="user" type="_MWVRNx_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCMB_-Edyi3tc0vUUiUQ" name="getIdAccount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEhR_-Edyi3tc0vUUiUQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCMh_-Edyi3tc0vUUiUQ" name="getPassword" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEgB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCNB_-Edyi3tc0vUUiUQ" name="getUser" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEgx_-Edyi3tc0vUUiUQ" type="_MWVRNx_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCNh_-Edyi3tc0vUUiUQ" name="setIdAccount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEgR_-Edyi3tc0vUUiUQ" name="idAccount">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCOB_-Edyi3tc0vUUiUQ" name="getTipologia" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEhB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWfCOh_-Edyi3tc0vUUiUQ" name="getUsername" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEhh_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MWx9IB_-Edyi3tc0vUUiUQ" name="setTipologia" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEiR_-Edyi3tc0vUUiUQ" name="tipologia" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MW7uIB_-Edyi3tc0vUUiUQ" name="setPassword" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEgh_-Edyi3tc0vUUiUQ" name="password" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MW7uIh_-Edyi3tc0vUUiUQ" name="setUsername" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_j9nEhx_-Edyi3tc0vUUiUQ" name="username" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MWVRNx_-Edyi3tc0vUUiUQ" name="Utente" clientDependency="_MbQNcB_-Edyi3tc0vUUiUQ">
+    <ownedAttribute xmi:id="_MagmkB_-Edyi3tc0vUUiUQ" name="idUtente" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Sgh_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9SgR_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MapwgB_-Edyi3tc0vUUiUQ" name="indirizzo" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9ShB_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9Sgx_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MapwgR_-Edyi3tc0vUUiUQ" name="telefono" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Shh_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9ShR_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Mapwgh_-Edyi3tc0vUUiUQ" name="nome" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9SiB_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9Shx_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Mapwgx_-Edyi3tc0vUUiUQ" name="cognome" visibility="private" type="_MWVRMh_-Edyi3tc0vUUiUQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ma9Sih_-Edyi3tc0vUUiUQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ma9SiR_-Edyi3tc0vUUiUQ"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_MapwhB_-Edyi3tc0vUUiUQ" name="getIndirizzo" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBQR_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Mapwhh_-Edyi3tc0vUUiUQ" name="setIndirizzo" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBQx_-Edyi3tc0vUUiUQ" name="indirizzo" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MazhgB_-Edyi3tc0vUUiUQ" name="getIdUtente" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBSB_-Edyi3tc0vUUiUQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Mazhgh_-Edyi3tc0vUUiUQ" name="getTelefono" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBQB_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MazhhB_-Edyi3tc0vUUiUQ" name="getNome" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBQh_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Mazhhh_-Edyi3tc0vUUiUQ" name="setTelefono" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBRx_-Edyi3tc0vUUiUQ" name="telefono" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MazhiB_-Edyi3tc0vUUiUQ" name="setCognome" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBRR_-Edyi3tc0vUUiUQ" name="cognome" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Mazhih_-Edyi3tc0vUUiUQ" name="setNome" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBRh_-Edyi3tc0vUUiUQ" name="nome" type="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MazhjB_-Edyi3tc0vUUiUQ" name="getCognome" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBSR_-Edyi3tc0vUUiUQ" type="_MWVRMh_-Edyi3tc0vUUiUQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Mazhjh_-Edyi3tc0vUUiUQ" name="setIdUtente" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6xBRB_-Edyi3tc0vUUiUQ" name="idUtente">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MWVRMB_-Edyi3tc0vUUiUQ" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_MWVRMh_-Edyi3tc0vUUiUQ" name="String" isLeaf="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_PgF3dB_-Edyi3tc0vUUiUQ" name="java.util">
+    <packagedElement xmi:type="uml:Class" xmi:id="_PgF3dR_-Edyi3tc0vUUiUQ" name="ArrayList"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MZnOsB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ" client="_LovLYB_-Edyi3tc0vUUiUQ _LovLYB_-Edyi3tc0vUUiUQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MZ6JoR_-Edyi3tc0vUUiUQ" supplier="_MWVRNx_-Edyi3tc0vUUiUQ" client="_LovLYB_-Edyi3tc0vUUiUQ _LovLYB_-Edyi3tc0vUUiUQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MbQNcB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ" client="_MWVRNx_-Edyi3tc0vUUiUQ _MWVRNx_-Edyi3tc0vUUiUQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O9-B0B_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_O7vNMB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O9-B0x_-Edyi3tc0vUUiUQ">
+    <supplier xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_O9YL9x_-Edyi3tc0vUUiUQ"/>
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_O7vNMB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PAzTYB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PB2cQB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PBZwUB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PCmDIB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PCJXMB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PDok8B_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PC4-EB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PFuPoB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PE03wB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PFuPox_-Edyi3tc0vUUiUQ">
+    <supplier xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_O9YL9x_-Edyi3tc0vUUiUQ"/>
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PE03wB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PHNdYB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_O9YL9x_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PJANIB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PHz6UB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Pg_PUB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PgZZch_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PhlsQB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_Pe5koB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PhlsQx_-Edyi3tc0vUUiUQ" supplier="_PgF3dR_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_Pe5koB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Phu2Mh_-Edyi3tc0vUUiUQ">
+    <supplier xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PgZZch_-Edyi3tc0vUUiUQ"/>
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_Pe5koB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Pj0g4B_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PiedEB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PlKksB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_Pk3CvB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PlnQoB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PkHb0B_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Plwakh_-Edyi3tc0vUUiUQ">
+    <supplier xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PiedEB_-Edyi3tc0vUUiUQ"/>
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PkHb0B_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PlwalR_-Edyi3tc0vUUiUQ">
+    <supplier xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_Pk3CvB_-Edyi3tc0vUUiUQ"/>
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PkHb0B_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Pl6Lkh_-Edyi3tc0vUUiUQ" supplier="_PgF3dR_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PkHb0B_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PmzjcB_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_PmgBcB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_koE91x_-Edyi3tc0vUUiUQ" supplier="_MWVRMh_-Edyi3tc0vUUiUQ">
+    <client xmi:type="uml:Class" href="platform:/resource/Classi/.repository.uml2#_km4rAB_-Edyi3tc0vUUiUQ"/>
+  </packagedElement>
+</uml:Model>

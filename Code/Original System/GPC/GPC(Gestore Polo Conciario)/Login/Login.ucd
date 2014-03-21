@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" id="Login" metadata="uml2-1.0" initialized="true" scrolledY="10" tag="1000" key="323030363130303620436C617373692F6D62EC">
+  <children xsi:type="editmodel:ClassEditModel" name="Account" location="125,15" size="213,349" id="Login/Account" runTimeClassModel="getIdAccount(),getTipologia(),getPassword(),setUser(LLogin.Utente;),getUser(),setUsername(Ljava.lang.String;),password,setTipologia(Ljava.lang.String;),tipologia,username,setPassword(Ljava.lang.String;),getUsername(),idAccount,setIdAccount(I),user">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="user" id="Login/Account#user"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="username" id="Login/Account#username"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="Login/Account#password"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipologia" id="Login/Account#tipologia"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="idAccount" id="Login/Account#idAccount"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="190,180">
+      <children xsi:type="editmodel:MethodEditModel" name="setTipologia" id="Login/Account#setTipologia(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIdAccount" id="Login/Account#getIdAccount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIdAccount" id="Login/Account#setIdAccount(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPassword" id="Login/Account#setPassword(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUser" id="Login/Account#setUser(LLogin.Utente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassword" id="Login/Account#getPassword()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsername" id="Login/Account#getUsername()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTipologia" id="Login/Account#getTipologia()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsername" id="Login/Account#setUsername(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUser" id="Login/Account#getUser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Utente" location="120,410" size="206,349" id="Login/Utente" runTimeClassModel="getIndirizzo(),getTelefono(),setIndirizzo(Ljava.lang.String;),idUtente,indirizzo,telefono,getNome(),setNome(Ljava.lang.String;),cognome,getIdUtente(),getCognome(),setCognome(Ljava.lang.String;),setIdUtente(I),nome,setTelefono(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="idUtente" id="Login/Utente#idUtente"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nome" id="Login/Utente#nome"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cognome" id="Login/Utente#cognome"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indirizzo" id="Login/Utente#indirizzo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="telefono" id="Login/Utente#telefono"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="183,180">
+      <children xsi:type="editmodel:MethodEditModel" name="setTelefono" id="Login/Utente#setTelefono(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCognome" id="Login/Utente#setCognome(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIndirizzo" id="Login/Utente#setIndirizzo(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIdUtente" id="Login/Utente#setIdUtente(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNome" id="Login/Utente#setNome(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTelefono" id="Login/Utente#getTelefono()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndirizzo" id="Login/Utente#getIndirizzo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNome" id="Login/Utente#getNome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCognome" id="Login/Utente#getCognome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIdUtente" id="Login/Utente#getIdUtente()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>
